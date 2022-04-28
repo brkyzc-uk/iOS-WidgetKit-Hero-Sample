@@ -11,7 +11,46 @@
 		F7100FA02816B17C00C8F3A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100F9F2816B17C00C8F3A4 /* ContentView.swift */; };
 		F7100FA22816B18200C8F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7100FA12816B18200C8F3A4 /* Assets.xcassets */; };
 		F7100FA52816B18200C8F3A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7100FA42816B18200C8F3A4 /* Preview Assets.xcassets */; };
+		F7100FAC2816B39000C8F3A4 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAB2816B39000C8F3A4 /* SuperHero.swift */; };
+		F7100FAE2816B6EA00C8F3A4 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAD2816B6EA00C8F3A4 /* CircularImageView.swift */; };
+		F7100FB02816B9B100C8F3A4 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAF2816B9B100C8F3A4 /* HeroView.swift */; };
+		F7100FB92816C0E000C8F3A4 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7100FB82816C0E000C8F3A4 /* WidgetKit.framework */; };
+		F7100FBB2816C0E000C8F3A4 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7100FBA2816C0E000C8F3A4 /* SwiftUI.framework */; };
+		F7100FBE2816C0E000C8F3A4 /* WidgetHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FBD2816C0E000C8F3A4 /* WidgetHero.swift */; };
+		F7100FC12816C0E300C8F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7100FC02816C0E300C8F3A4 /* Assets.xcassets */; };
+		F7100FC32816C0E300C8F3A4 /* WidgetHero.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F7100FBF2816C0E000C8F3A4 /* WidgetHero.intentdefinition */; };
+		F7100FC42816C0E300C8F3A4 /* WidgetHero.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = F7100FBF2816C0E000C8F3A4 /* WidgetHero.intentdefinition */; };
+		F7100FC72816C0E300C8F3A4 /* WidgetHeroExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F7100FB62816C0DF00C8F3A4 /* WidgetHeroExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F7100FCC2816C13400C8F3A4 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAF2816B9B100C8F3A4 /* HeroView.swift */; };
+		F7100FCD2816C13A00C8F3A4 /* CircularImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAD2816B6EA00C8F3A4 /* CircularImageView.swift */; };
+		F7100FCE2816C13E00C8F3A4 /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100FAB2816B39000C8F3A4 /* SuperHero.swift */; };
+		F7100FCF2816C14100C8F3A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7100F9F2816B17C00C8F3A4 /* ContentView.swift */; };
+		F7100FD12816C15200C8F3A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7100FA12816B18200C8F3A4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7100FC52816C0E300C8F3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7100F922816B17C00C8F3A4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7100FB52816C0DF00C8F3A4;
+			remoteInfo = WidgetHeroExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7100FCB2816C0E300C8F3A4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F7100FC72816C0E300C8F3A4 /* WidgetHeroExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F7100F9A2816B17C00C8F3A4 /* HeroWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeroWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +58,18 @@
 		F7100F9F2816B17C00C8F3A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7100FA12816B18200C8F3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7100FA42816B18200C8F3A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7100FAB2816B39000C8F3A4 /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		F7100FAD2816B6EA00C8F3A4 /* CircularImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularImageView.swift; sourceTree = "<group>"; };
+		F7100FAF2816B9B100C8F3A4 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		F7100FB12816BEA600C8F3A4 /* HeroWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeroWidget.entitlements; sourceTree = "<group>"; };
+		F7100FB62816C0DF00C8F3A4 /* WidgetHeroExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetHeroExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7100FB82816C0E000C8F3A4 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F7100FBA2816C0E000C8F3A4 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F7100FBD2816C0E000C8F3A4 /* WidgetHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHero.swift; sourceTree = "<group>"; };
+		F7100FBF2816C0E000C8F3A4 /* WidgetHero.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetHero.intentdefinition; sourceTree = "<group>"; };
+		F7100FC02816C0E300C8F3A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7100FC22816C0E300C8F3A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7100FD22816C95100C8F3A4 /* WidgetHeroExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WidgetHeroExtension.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,13 +80,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7100FB32816C0DF00C8F3A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7100FBB2816C0E000C8F3A4 /* SwiftUI.framework in Frameworks */,
+				F7100FB92816C0E000C8F3A4 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F7100F912816B17C00C8F3A4 = {
 			isa = PBXGroup;
 			children = (
+				F7100FD22816C95100C8F3A4 /* WidgetHeroExtension.entitlements */,
 				F7100F9C2816B17C00C8F3A4 /* HeroWidget */,
+				F7100FBC2816C0E000C8F3A4 /* WidgetHero */,
+				F7100FB72816C0E000C8F3A4 /* Frameworks */,
 				F7100F9B2816B17C00C8F3A4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				F7100F9A2816B17C00C8F3A4 /* HeroWidget.app */,
+				F7100FB62816C0DF00C8F3A4 /* WidgetHeroExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,10 +115,14 @@
 		F7100F9C2816B17C00C8F3A4 /* HeroWidget */ = {
 			isa = PBXGroup;
 			children = (
+				F7100FB12816BEA600C8F3A4 /* HeroWidget.entitlements */,
 				F7100F9D2816B17C00C8F3A4 /* HeroWidgetApp.swift */,
 				F7100F9F2816B17C00C8F3A4 /* ContentView.swift */,
 				F7100FA12816B18200C8F3A4 /* Assets.xcassets */,
 				F7100FA32816B18200C8F3A4 /* Preview Content */,
+				F7100FAB2816B39000C8F3A4 /* SuperHero.swift */,
+				F7100FAD2816B6EA00C8F3A4 /* CircularImageView.swift */,
+				F7100FAF2816B9B100C8F3A4 /* HeroView.swift */,
 			);
 			path = HeroWidget;
 			sourceTree = "<group>";
@@ -67,6 +135,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		F7100FB72816C0E000C8F3A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7100FB82816C0E000C8F3A4 /* WidgetKit.framework */,
+				F7100FBA2816C0E000C8F3A4 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7100FBC2816C0E000C8F3A4 /* WidgetHero */ = {
+			isa = PBXGroup;
+			children = (
+				F7100FBD2816C0E000C8F3A4 /* WidgetHero.swift */,
+				F7100FBF2816C0E000C8F3A4 /* WidgetHero.intentdefinition */,
+				F7100FC02816C0E300C8F3A4 /* Assets.xcassets */,
+				F7100FC22816C0E300C8F3A4 /* Info.plist */,
+			);
+			path = WidgetHero;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +165,34 @@
 				F7100F962816B17C00C8F3A4 /* Sources */,
 				F7100F972816B17C00C8F3A4 /* Frameworks */,
 				F7100F982816B17C00C8F3A4 /* Resources */,
+				F7100FCB2816C0E300C8F3A4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F7100FC62816C0E300C8F3A4 /* PBXTargetDependency */,
 			);
 			name = HeroWidget;
 			productName = HeroWidget;
 			productReference = F7100F9A2816B17C00C8F3A4 /* HeroWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		F7100FB52816C0DF00C8F3A4 /* WidgetHeroExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7100FC82816C0E300C8F3A4 /* Build configuration list for PBXNativeTarget "WidgetHeroExtension" */;
+			buildPhases = (
+				F7100FB22816C0DF00C8F3A4 /* Sources */,
+				F7100FB32816C0DF00C8F3A4 /* Frameworks */,
+				F7100FB42816C0DF00C8F3A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetHeroExtension;
+			productName = WidgetHeroExtension;
+			productReference = F7100FB62816C0DF00C8F3A4 /* WidgetHeroExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +205,9 @@
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
 					F7100F992816B17C00C8F3A4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					F7100FB52816C0DF00C8F3A4 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
@@ -116,6 +226,7 @@
 			projectRoot = "";
 			targets = (
 				F7100F992816B17C00C8F3A4 /* HeroWidget */,
+				F7100FB52816C0DF00C8F3A4 /* WidgetHeroExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +241,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7100FB42816C0DF00C8F3A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7100FD12816C15200C8F3A4 /* Assets.xcassets in Resources */,
+				F7100FC12816C0E300C8F3A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,11 +258,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7100FA02816B17C00C8F3A4 /* ContentView.swift in Sources */,
+				F7100FAE2816B6EA00C8F3A4 /* CircularImageView.swift in Sources */,
+				F7100FC42816C0E300C8F3A4 /* WidgetHero.intentdefinition in Sources */,
 				F7100F9E2816B17C00C8F3A4 /* HeroWidgetApp.swift in Sources */,
+				F7100FAC2816B39000C8F3A4 /* SuperHero.swift in Sources */,
+				F7100FB02816B9B100C8F3A4 /* HeroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7100FB22816C0DF00C8F3A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7100FCE2816C13E00C8F3A4 /* SuperHero.swift in Sources */,
+				F7100FC32816C0E300C8F3A4 /* WidgetHero.intentdefinition in Sources */,
+				F7100FCF2816C14100C8F3A4 /* ContentView.swift in Sources */,
+				F7100FCD2816C13A00C8F3A4 /* CircularImageView.swift in Sources */,
+				F7100FBE2816C0E000C8F3A4 /* WidgetHero.swift in Sources */,
+				F7100FCC2816C13400C8F3A4 /* HeroView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7100FC62816C0E300C8F3A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7100FB52816C0DF00C8F3A4 /* WidgetHeroExtension */;
+			targetProxy = F7100FC52816C0E300C8F3A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F7100FA62816B18200C8F3A4 /* Debug */ = {
@@ -184,7 +329,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -244,7 +389,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -264,8 +409,10 @@
 		F7100FA92816B18200C8F3A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroWidget/HeroWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
@@ -293,8 +440,10 @@
 		F7100FAA2816B18200C8F3A4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HeroWidget/HeroWidget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"HeroWidget/Preview Content\"";
@@ -319,6 +468,62 @@
 			};
 			name = Release;
 		};
+		F7100FC92816C0E300C8F3A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetHeroExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAY36QDR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHero;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyasoft.HeroWidget.WidgetHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7100FCA2816C0E300C8F3A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = WidgetHeroExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZAY36QDR2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetHero/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetHero;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.buyasoft.HeroWidget.WidgetHero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +541,15 @@
 			buildConfigurations = (
 				F7100FA92816B18200C8F3A4 /* Debug */,
 				F7100FAA2816B18200C8F3A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7100FC82816C0E300C8F3A4 /* Build configuration list for PBXNativeTarget "WidgetHeroExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7100FC92816C0E300C8F3A4 /* Debug */,
+				F7100FCA2816C0E300C8F3A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
